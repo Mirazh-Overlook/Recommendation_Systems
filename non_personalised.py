@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-movie_list=pd.read_csv(r'C:\Users\BINDU\Desktop\DataSet\ml-latest-small\movies.csv')
+movie_list=pd.read_csv(r'ml-latest-small\movies.csv')
 
 genres=movie_list['genres']
 genre_list=""
