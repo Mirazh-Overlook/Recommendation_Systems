@@ -6,7 +6,7 @@
 
 # Various approaches used-
 
-#Non personalised Recommendations
+# Non personalised Recommendations
 #used to calculate the best movies according to various genres and they can be recommended to any new user.
 
 # Finding similar movies
