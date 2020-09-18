@@ -2,9 +2,9 @@
 
 import pandas as pd
 
-ratings = pd.read_csv(r'C:\Users\BINDU\Desktop\DataSet\ml-latest-small\ratings.csv')
+ratings = pd.read_csv(r'ml-latest-small\ratings.csv')
 ratings = ratings[['userId', 'movieId','rating']]
-movie_list=pd.read_csv(r'C:\Users\BINDU\Desktop\DataSet\ml-latest-small\movies.csv')
+movie_list=pd.read_csv(r'ml-latest-small\movies.csv')
 
 #get ordered list of movieIds
 item_indices = pd.DataFrame(sorted(list(set(ratings['movieId']))),columns=['movieId'])
