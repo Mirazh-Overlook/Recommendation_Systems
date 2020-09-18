@@ -91,6 +91,24 @@ print("Top 10 predictions for User " + str(user_id))
 pd.merge(sorted_user_predictions,movie_list, on = 'movieId')[:10]
 
 
+#output
+
+"""
+Top 10 predictions for User 1
+ratings	movieId	title	genres
+0	5.620006	2670	Run Silent Run Deep (1958)	War
+1	5.507239	291	Poison Ivy II (1996)	Drama|Thriller
+2	5.499841	835	Foxfire (1996)	Drama
+3	5.374005	1217	Ran (1985)	Drama|War
+4	5.370712	899	Singin' in the Rain (1952)	Comedy|Musical|Romance
+5	5.338631	46	How to Make an American Quilt (1995)	Drama|Romance
+6	5.321134	1180	Hear My Song (1991)	Comedy
+7	5.308186	520	Robin Hood: Men in Tights (1993)	Comedy
+8	5.300322	43	Restoration (1995)	Drama
+9	5.289671	1938	Lost Weekend, The (1945)	Dr
+"""
+
+
 
 
 
